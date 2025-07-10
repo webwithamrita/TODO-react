@@ -1,0 +1,17 @@
+.app{
+  display: grid;
+  grid-template-rows: 150px auto;
+  /* this gices the height as 150 & width as auto ----is used in CSS Grid Layout to define the height of the rows in a grid container.*/
+}
+.app_main{
+  display: flex;
+  justify-content: space-evenly;
+  /* this makes the flex give equal spacing for each sections */
+  padding: 20px 8%;
+
+}
+.task_column{
+  width : 33.33%;
+  /* background-color: aquamarine; */
+  margin: 20px;
+}
